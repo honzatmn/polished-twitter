@@ -1,0 +1,80 @@
+h2[role=heading],
+h2[role=heading] * {
+	font-weight: 600;
+	font-size: 1.1rem;
+}
+
+header[role="banner"] nav a[role=link] svg,
+header[role="banner"] nav div[role=button] svg {
+    height: 1.5rem;	
+    width: 24px;
+}
+
+header[role="banner"] nav a[role=link] *,
+header[role="banner"] nav div[role=button] * {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+div[data-testid=sidebarColumn] * {
+	visibility: hidden;
+}
+
+div[data-testid=sidebarColumn] form {
+ 	position: fixed;
+    top: 8px;
+    max-width: 310px;
+    width: 100%;
+	visibility: visible !important;
+}
+
+div[data-testid=sidebarColumn] form * {
+	visibility: visible !important;
+}
+
+div[data-testid=sidebarColumn] form input:focus {
+ 	width: 100%;
+}
+
+div[role="menu"] {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 6px 6px;
+}
+
+div[aria-modal=true] {
+	border-radius: 4px;
+}
+
+div[data-testid=primaryColumn] a[role=link] * {
+	font-size: 1rem;
+} 
+
+.public-DraftEditorPlaceholder-inner {
+	font-size: 1.15rem;
+}
+
+.DraftEditor-editorContainer {
+	font-size: 1.15rem;
+}
+
+/* pocket extension */
+.ProfileTweet-action {
+	display: flex;
+	flex-basis: 0px;
+    flex-grow: 0;
+    margin-right: 55px;
+}
+
+.ProfileTweet-action .ProfileTweet-actionButton {
+	width: auto;
+    height: auto;
+    left: 0;
+    margin-top: 0 !important;
+    display: flex;
+}
+
+
+.ProfileTweet-action svg {
+	top: 0;
+	left: 0;
+	align-self: center;
+}
